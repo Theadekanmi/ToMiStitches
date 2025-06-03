@@ -1,0 +1,16 @@
+{
+  "name": "tomistitches",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": " tailwindcss -i ./src/css/index.css -o ./src/css/app.css --watch",
+    "build": " tailwindcss -i ./src/css/index.css -o ./src/css/app.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^4.1.8"
+  }
+}

@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToMiStiTches</title>
+      <link href="app.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="fixed top-0 left-0 right-0 z-10 px-3 py-4 shadow-lg opacity-75 bg-slate-300">
+   <div class="flex items-center justify-between w-full md:px-8">
+     <a href="index.html">
+        <h1 class="fixed text-2xl font-bold text-blue-950 hover:text-red-500">ToMiStiTches</h1>
+      </a>
+     <button id="menuToggle" 
+     class="text-3xl text-red-500 md:hidden focus:outline-none">
+    <span id="menuIcon"> &#9776;</span>
+     </button>
+   </div>
+    <nav id="menu" 
+    class="overflow-hidden transition-all duration-500 ease-in-out max-h-0 md:max-h-full md:block">
+    
+    <div class="flex flex-col items-center gap-4 md:flex-row md:gap-6">
+        <ul class="flex flex-col items-center gap-4 md:flex-row md:gap-6 md:mx-auto md:py-0">
+            <li><a href="index.html" class="hover:text-red-500">Home</a></li>
+            <li> <a href="about.html" class="hover:text-red-500">About</a></li>
+            <li><a href="contact.html" class="hover:text-red-500">Contact</a></li>
+        </ul>
+        <ul class="flex flex-col items-center gap-4 md:flex-row md:gap-4">
+            <li><a href="register.html" class="px-2 py-2 text-white bg-red-500 rounded hover:bg-red-800">Register</a></li>
+             <li><a href="login.html" class="px-2 py-2 text-white bg-red-500 rounded hover:bg-red-800">Login</a></li>
+        </ul>
+     </div>
+ </nav>
+ </header>
+ 
+ <section id="About" 
+      class="relative flex items-center justify-center w-full min-h-screen px-4 pt-32 transition duration-500 ease-in-out bg-center bg-covetransition-all" 
+      style="background-image: url(images/jagiya.jpg)">
+     <div class="z-10 flex flex-col items-center justify-center h-full text-center text-blue-950">
+        <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl">Welcome To ToMiStiTches</h2>
+        <p class="mt-6 mb-5 text-lg text-white sm:text-xl md:text-2xl">We make clothes that suit you</p>
+        <a href="shop.html" class="px-6 py-3 text-lg text-white transition bg-red-500 rounded-lg hover:bg-red-800">Shop</a>
+     </div>
+     <div class="absolute top-0 left-0 z-0 w-full h-full bg-black/30"></div>
+ </section>
+ 
+ <section id="Service" class="py-16 bg-grey-100">
+    <div class="px-4 mx-auto text-center max-w-7xl">
+        <h2 class="text-3xl font-bold text-red-500">Our Service</h2>
+        <div class="grid grid-cols-1 gap-8 mt-10 sm:grid-cols-2 lg:grid-cols-3">
+         <div class="w-full p-6 bg-white rounded-lg shadow-lg">
+            <img src="./images/jagiya.jpg" alt="" class="object-cover rounded-md w-96 h-96">
+            <h3 class="mt-4 text-xl font-semibold">Product 1</h3>
+            <p class="mt-2 text-gray-600">#40,000</p>
+            <button class="px-6 py-2 mt-4 text-white bg-red-500 rounded-md hover:bg-red-700" >Order Now</button>
+          </div>
+          <div class="p-6 bg-white rounded-lg shadow-lg">
+            <img src="./images/WhatsApp Image 2025-03-13 at 15.02.20_f7394d34.jpg" alt="" class="object-cover rounded-md w-96 h-96">
+            <h3 class="mt-4 text-xl font-semibold">Product 2</h3>
+            <p class="mt-2 text-gray-600">#35,000</p>
+            <button class="px-6 py-2 mt-4 text-white bg-red-500 rounded-md hover:bg-red-700">Order Now</button>
+          </div>
+          <div class="p-6 bg-white rounded-lg shadow-lg">
+            <img src="./images/WhatsApp Image 2025-03-13 at 15.02.20_bbf6cfdf.jpg" alt="" class="object-cover rounded-md w-96 h-96">
+            <h3 class="mt-4 text-xl font-semibold">Product 3</h3>
+            <p class="mt-2 text-gray-600">#40,000</p>
+            <button class="px-6 py-2 mt-4 text-white bg-red-500 rounded-md hover:bg-red-700">Order Now</button> 
+          </div>
+         </div>
+    </div>
+</section>
+
+<section id="See More" class="py-14 bg-slate-100">
+    <div class="px-4 mx-auto text-center max-w-7xl">
+        <h1 class="text-4xl font-bold text-red-500 ">Check For More</h1>
+        
+     <div class="grid grid-cols-1 gap-6 mt-5 shadow-lg sm:grid-cols-2 md:grid-cols-3">
+       <div class="p-3 transition-all duration-500 rounded-lg shadow-md hover:shadow-xl">
+        <img src="./images/instra1.png.webp" alt="" class="object-cover transition-transform duration-500 hover:scale-110 w-72 h-96">
+      </div>
+      <div class="p-3 transition-all duration-500 rounded-lg shadow-lg hover:shadow-xl">
+        <img src="./images/offers1.png.webp" alt="" class="object-cover transition-transform duration-500 w-72 h-96 hover:scale-110">
+      </div>
+       <div class="p-3 transition-all duration-500 rounded-lg shadow-lg hover:shadow-xl">
+        <img src="./images/offers2.png.webp" alt="" class="object-cover transition-transform duration-500 w-72 h-96 hover:scale-110">
+       </div>
+       </div>
+    
+      <div class="flex flex-col justify-center gap-8 mt-6 sm:flex-row">
+        <div class="w-full p-6 text-center bg-white rounded-lg shadow-lg sm:w-64">
+            <div class="flex items-center justify-center mx-auto text-2xl font-bold text-white rounded-full w-14 h-14 bg-amber-600">1</div>
+            <h2 class="mt-4 text-lg font-bold">Vendor</h2>
+            <p class="mt-2 text-gray-600">We sell diffenrent Kind of Fabrics, just for you to look good.</p>
+        </div>
+        <div class="w-full p-6 text-center bg-white rounded-lg shadow-lg sm:w-64">
+            <div class="flex items-center justify-center mx-auto text-2xl font-bold text-white rounded-full w-14 h-14 bg-amber-600">2</div>
+            <h2 class="mt-4 text-lg font-bold">Designer</h2>
+            <p class="mt-2 text-gray-600">At ToMiStiTches we creating a unique fashion pieces.</p>
+        </div>
+        <div class="w-full p-6 text-center bg-white rounded-lg shadow-lg sm:w-64">
+            <div class="flex items-center justify-center mx-auto text-2xl font-bold text-white rounded-full w-14 h-14 bg-amber-600">3</div>
+            <h2 class="mt-4 text-lg font-bold">Stylist</h2>
+            <p class="mt-2 text-gray-600">Our goal is to bring out the best in you</p>
+        </div> 
+    </div>
+</section>
+
+
+<section id="contact-form" class="mt-10">
+    <div class="flex flex-col w-full h-auto lg:h-screen lg:flex-row ">
+        <div class="w-full bg-center bg-cover lg:w-1/2 lg:h-full h-72" style="background-image: url(./images/visit_bg.png.webp)"></div>
+        
+        <div class="flex items-center justify-center w-full p-6 lg:w-1/2 bg-amber-200">
+            <div class="max-w-xl">
+            <h1 class="text-3xl font-extrabold text-center md:text-4xl lg:text-left">About our <br class="hidden lg:block">
+                tailor house</h1>
+            <p class="mt-6 text-lg leading-relaxed text-center text-gray-700 lg:text-left">
+                Experience the art of fine tailoring with ToMiStiTches fashion designer. We craft customized, high quality outfits for all occation.
+                At <span class="text-red-500 hover:text-blue-500">ToMiStiTches</span> trial will confuse you 
+            </p>
+            <div class="flex justify-center mt-8 lg:justify-start">
+             <a href="bookappointment.html"class="items-center px-6 py-4 text-white transition-all bg-red-500 rounded-md shadow-md hover:bg-red-800">Book An Appointment</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="OurService" class="flex justify-center py-16 bg-white">
+    
+    <div class="flex flex-col items-center w-full gap-10 px-4 bg-white max-wtext-7xl">
+        <div class="flex items-center justify-center w-3/4 h-20 mt-20 font-serif text-4xl font-bold text-black bg-white">
+            <h2 class="font-serif text-3xl font-bold text-center text-black md:text-4xl">Why Using Our Service?</h2>
+        </div>
+        <div class="grid w-full grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+            
+            <div class="relative flex flex-col p-6 bg-white rounded-lg shadow-lg">
+                <img src="./images/service1_files/services1.svg" alt="" class="absolute bg-white rounded-full shadow-md -top-6 left-6">
+                <h1 class="px-4 ml-12 -mt-10 text-black font-sans-extralbold">Custom Fit Sweing</h1>
+                <p class="px-4 mt-10 text-gray-400">Unlike ready-made clothes, tailor-swen garments are adjusted to match a person's exact body shape.</p>
+            </div>
+            
+            <div class="relative flex flex-col p-6 bg-white rounded-lg shadow-lg">
+                <img src="./images/service1_files/services3.svg" alt="" class="absolute bg-white rounded-full shadow-md -top-6 left-6">
+                <h1 class="px-4 ml-12 -mt-10 text-black font-extralbold">Fabric Selection Sweing</h1>
+                <p class="px-4 mt-6 text-gray-400">Tailors choose high-quality materials based on the design and customer preferences.</p>
+            </div>
+            
+            <div class="relative flex flex-col p-6 bg-white rounded-lg shadow-lg">
+                <img src="./images/service1_files/services2.svg" alt="" class="absolute bg-white rounded-full shadow-md -top-6 left-6">
+                <h1 class="px-4 ml-12 -mt-10 text-black fold-extralbold">Cutting & Stitching Sweing</h1>
+                <p class="px-4 mt-6 text-gray-400">Precision cutting and detailed sewing techniques ensure a seamless and professional look.</p>
+            </div>
+            
+            <div class="relative flex flex-col p-6 bg-white rounded-lg shadow-lg">
+                <img src="./images/service1_files/services4.svg" alt="" class="absolute bg-white rounded-full shadow -top-6 left-6">
+                <h1 class="px-4 ml-12 -mt-10 text-black font-extralbold ">Handmade & Machine Sweing</h1>
+                <p class="px-4 mt-6 text-gray-400">Depending on the design, tailors use both hand-stitching and sewing machines for durability and fine details.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="lookbook" class="px-6 py-16 bg-gray-100 ">
+    <h2 class="mb-8 text-4xl font-bold text-center text-red-500">Our Lookbook</h2>
+    
+    <div class="flex flex-col justify-center gap-4 mb-10 sm:flex-row sm:flex-wrap">
+        
+        <button class="px-4 py-2 text-sm text-white transition-all duration-300 bg-red-500 rounded filter-btn sm:text-base hover:bg-red-700" data-category="all">All</button>
+        <button class="px-4 py-2 text-sm text-white transition-all duration-300 bg-red-500 rounded filter-btn sm:text-base hover:bg-blue-700" data-category="ankara">Ankara</button>
+        <button class="px-4 py-2 text-sm text-white transition-all duration-300 bg-red-500 rounded filter-btn sm:text-base hover:bg-pink-700" data-category="casual">Casual</button>
+        <button class="px-4 py-2 text-sm text-white transition-all duration-300 bg-red-500 rounded filter-btn sm:text-base hover:bg-green-700" data-category="bridal">Bridal</button>
+        <button class="px-4 py-2 text-sm text-white transition-all duration-300 bg-red-500 rounded filter-btn sm:text-base hover:bg-yellow-700" data-category="corporate">Corporate</button>
+    </div>
+
+    <div id="gallary" class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/ankara style.jpg" alt="Ankara style" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/bridal.jpg" alt="Bradal" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual.jpg" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/ankara style 2.jpg" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/ZSHS0019Ivory_1_-first.webp" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded  aspect-[4/3] shadow hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual 2.webp" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 2.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/ankara 1.jpeg" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 1.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow hover:scale-105 aspect-[4/3]" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/bridal 2.jpg" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual 1.webp" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/dresses 1.jpg" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual 3.jpg" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/bridal 3.jpg" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 10.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/dresses 4.jpg" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 9.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/bridal 4.jpg" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual 4.jpg" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/dresses 5.jpg" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="images/bridal 6.jpg" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual 5.jpg" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 8.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/dresses 6.jpg" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 7.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual 6.jpg" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/bridal 7.jpg" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/dresses 7.jpg" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/bridal 5.jpg" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 6.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual 7.jpg" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/dresses 2.jpg" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual 2.webp" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/bridal 3.jpg" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 4.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/dresses 8.webp" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 3.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual 1.jpg" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/bridal 1.jpg" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/dresses 3.jpg" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 11.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item ankara">
+            <img src="./images/download (2).jpeg" alt="Ankara" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/gowon.jpeg" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/bridal 35.jpg" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item casual">
+            <img src="./images/casual 33.jpg" alt="Casual" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item bridal">
+            <img src="./images/bridal 36.jpg" alt="Bridal" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+        <div class="cursor-pointer gallary-item corporate">
+            <img src="./images/corporate 34.jpg" alt="Corporate" class="object-cover w-full transition-all duration-300 rounded shadow  aspect-[4/3] hover:scale-105" loading="lazy">
+        </div>
+    </div>
+    
+    <div id="imageModal" class="fixed inset-0 z-50 flex items-center justify-center px-4 bg-black bg-opacity-75">
+        <div class="relative w-full max-w-[95%] sm:max-w-[80%] md:max-w-3xl">
+            <img id="modalImage" src="./images/jagiya.jpg" 
+            alt="Full View" 
+            class="rounded shadow-lg max-h-[80vh] object-contain">
+            <button id="closeModal" 
+            class="absolute justify-center w-10 h-10 mt-2 mr-2 text-3xl text-white bg-red-600 rounded-full top-2 right-2ems-center right-2 hover:bg-red-800">&times;</button>
+        </div>
+    </div>
+</section>
+
+<section id="customerReview"  class="py-10 pt-32 overflow-hidden bg-gray-100">
+    <h2 class="mb-6 text-3xl font-bold text-center text-red-500">What Our customer Says</h2>
+    
+    <div id="slide" class="flex transition-transform duration-500 ease-in-out">
+        
+        <div class="min-w-full px-4 text-center rounded-lg shadow">
+           <div class="p-6 mx-auto bg-white rounded-lg shadow snap-center w-80">
+               <h3 class="text-lg text-gray-700">"ToMiStiTches styled my wedding gown perfectly. 💯!"</h3>
+               <p class="mt-4 font-semibold text-amber-600">Anu</p>
+           </div>
+        </div>
+        
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+            <div class="p-6 mx-auto bg-white rounded-lg shadow w-80 snap-center">
+                <h3 class="text-lg text-gray-700">"I love my Ankara styles. They're neat and classy.👍"</h3>
+                <p class="mt-4 font-semibold text-amber-600">Blessing</p>
+            </div>
+        </div>
+        
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+            <div class="p-6 mx-auto bg-white rounded-lg shadow w-80 snap-center">
+                <h3 class="text-lg text-gray-700">"ToMiStiTches is my go-to Tailor. Always delivers on time.🙌"</h3>
+                <p class="mt-4 font-semibold text-amber-600">Tinu</p>
+            </div>
+        </div>
+        
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+            <div class="p-6 mx-auto bg-white rounded-lg shadow snap-center w-80">
+                <h3 class="text-lg text-gray-700">"Absolutely loved my dress from ToMiStiTches 💖!"</h3>
+                <p class="mt-4 font-semibold text-amber-600">Becca</p>
+            </div>
+        </div>
+
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+            <div class="p-6 mx-auto bg-white rounded-lg shadow snap-center w-80">
+                <h3 class="text-lg text-gray-700">"Top-notch tailoring. Sure I'll be back ✌!"</h3>
+                <p class="mt-4 font-semibold text-amber-600">Zainab</p>
+            </div>
+        </div>
+        
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+            <div class="p-6 mx-auto bg-white rounded-lg shadow snap-center w-80">
+                <h3 class="text-lg text-gray-700">"Every outfit was a perfect fit. Thanks 🙏!"</h3>
+                 <p class="mt-4 font-semibold text-amber-600">Olamide</p>
+            </div>
+        </div>
+
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+           <div class="p-6 mx-auto bg-white rounded-lg shadow snap-center w-80">
+              <h3 class="text-xl text-gray-700">"Absolutely amazing 🥰!"</h3>
+              <p class="mt-4 font-semibold text-amber-600">Teemah</p>
+           </div>
+        </div>
+
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+            <div class="p-6 mx-auto bg-white rounded-lg shadow snap-center w-80">
+                <h3 class="text-xl text-gray-700">"The Stitching is top tier. 💕"</h3>
+                <p class="mt-4 font-semibold text-amber-600">Mariam</p>
+            </div>
+        </div>
+
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+           <div class="p-6 mx-auto bg-white rounded-lg w-80 snap-center">
+              <h3 class="text-xl text-gray-700">"She nailed my bridal outfit.👰"</h3>
+              <p class="mt-4 font-semibold text-amber-600">Ifeoma G</p>
+           </div>
+        </div>
+        
+        
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+           <div class="p-6 mx-auto bg-white rounded-lg w-80 snap-center">
+              <h3 class="text-xl text-gray-700">"She is the best among the rest.😅!"</h3>
+              <p class="mt-4 font-semibold text-amber-600">Rose</p>
+           </div>
+        </div>
+        
+        
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+           <div class="p-6 mx-auto bg-white rounded-lg w-80 snap-center">
+              <h3 class="text-xl text-gray-700">"Thanks i love my outfit.💋"</h3>
+              <p class="mt-4 font-semibold text-amber-600">Adenike</p>
+           </div>
+        </div>
+        
+        
+        <div class="min-w-full px-6 text-center rounded-lg shadow">
+           <div class="p-6 mx-auto bg-white rounded-lg w-80 snap-center">
+              <h3 class="text-xl text-gray-700">"ToMiStiTches is Top-notch when come to style my clothes.✔!"</h3>
+              <p class="mt-4 font-semibold text-amber-600">Testimony</p>
+           </div>
+        </div>
+        </div>
+</section>
+
+<form action="https://usebasin.com/f/86b209c9d657" method="POST" class="mt-6 space-y-4">
+  <div class="max-w-2xl mx-auto mt-10 text-center">
+    <h1 class="text-3xl font-semibold text-red-500">Get In Touch</h1>
+    <form class="mt-6 space-y-4">
+      <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        class="w-full p-3 mb-4 border border-gray-300 rounded-lg"
+        required
+      />
+      <input
+        type="text"
+        name="address"
+        placeholder="Contact Address"
+        class="w-full p-3 mb-4 border border-gray-300 rounded-lg"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Your Email Address"
+        class="w-full p-3 mb-4 border border-gray-300 rounded-lg"
+        required
+      />
+      <input
+        type="tel"
+        name="phone"
+        placeholder="Your Phone Number"
+        class="w-full p-3 mb-4 border border-gray-300 rounded-lg"
+      />
+      <textarea
+        name="message"
+        placeholder="Your Message"
+        class="w-full p-3 mb-4 border border-gray-300 rounded-lg h-[100px]"
+        required
+      ></textarea>
+      <button
+        type="submit"
+        class="w-full py-3 text-white bg-red-500 rounded-lg hover:bg-red-800 transition-colors duration-300"
+      >
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+<footer class="py-10 mt-16 text-white bg-gray-800">
+  <div class="container grid grid-cols-1 gap-8 px-6 mx-auto md:px-12 md:grid-cols-3">
+    <div>
+      <a href="index.html">
+        <h2
+          class="text-2xl font-bold transition-all cursor-pointer text-blue-950 hover:text-red-500"
+        >
+          ToMiStiTches
+        </h2>
+      </a>
+      <p class="mt-2 text-sm text-gray-300">
+        Tailoring your dream into reality. Elegance in every stitch
+      </p>
+    </div>
+    <div>
+      <h3 class="mb-2 text-lg font-semibold">Quick Links</h3>
+      <ul class="space-y-1 text-sm">
+        <li><a href="index.html" class="hover:text-amber-400">Home</a></li>
+        <li><a href="about.html" class="hover:text-amber-400">About</a></li>
+        <li><a href="shop.html" class="hover:text-amber-400">Shop</a></li>
+        <li><a href="contact.html" class="hover:text-amber-400">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="mb-2 text-lg font-semibold">Follow Us</h3>
+      <div class="flex gap-4 text-xl">
+        <a href="#" class="hover:text-blue-400">Facebook</a>
+        <a href="#" class="hover:text-pink-400">Instagram</a>
+        <a href="#" class="hover:text-green-400">WhatsApp</a>
+        <a href="#" class="hover:text-amber-400">TikTok</a>
+        <a href="#" class="hover:text-blue-400">X</a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="pt-10 mt-10 text-sm text-center text-gray-700 border-t border-gray-400"
+  >
+    &copy; 2025 ToMiStiTches. All rights reserved. Made 💖 by
+    <span class="text-amber-500 hover:text-blue-400">SMGE</span>
+  </div>
+</footer>
+
+<script>
+  let sliderIndex = 0;
+  function autoSlide() {
+    const slideContainer = document.getElementById("slide");
+    const slide = slideContainer.children;
+    const totalSlides = slide.length;
+
+    sliderIndex++;
+    if (sliderIndex >= totalSlides) {
+      sliderIndex = 0;
+    }
+    slideContainer.style.transform = `translateX(-${sliderIndex * 100}%)`;
+  }
+  setInterval(autoSlide, 4000);
+
+  // Filter buttons
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const galleryItems = document.querySelectorAll(".gallery-item");
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const category = button.dataset.category;
+
+      galleryItems.forEach((item) => {
+        if (category === "all" || item.classList.contains(category)) {
+          item.style.display = "block";
+        } else {
+          item.style.display = "none";
+        }
+      });
+    });
+  });
+
+  // Modal Behavior
+  const modal = document.getElementById("imageModal");
+  const modalImage = document.getElementById("modalImage");
+  const closeModal = document.getElementById("closeModal");
+
+  document.querySelectorAll(".gallery-item").forEach((item) => {
+    item.addEventListener("click", () => {
+      const img = item.querySelector("img");
+      modalImage.src = img.src;
+      modal.classList.remove("hidden");
+    });
+  });
+
+  closeModal.addEventListener("click", () => {
+    modal.classList.add("hidden");
+  });
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.classList.add("hidden");
+    }
+  });
+
+  // Toggle hamburger
+  const toggleBtn = document.getElementById("menuToggle");
+  const menu = document.getElementById("menu");
+  const menuIcon = document.getElementById("menuIcon");
+
+  toggleBtn.addEventListener("click", () => {
+    const isOpen = menu.classList.contains("max-h-screen");
+
+    menu.classList.toggle("max-h-screen");
+    menu.classList.toggle("max-h-0");
+
+    menuIcon.innerHTML = isOpen ? "&#9776;" : "&#10005;";
+  });
+</script>
+
+<div
+  id="WhatsApp-chat"
+  class="fixed z-50 bottom-5 right-5"
+>
+  <a
+    href="https://wa.me/2348145345890"
+    class="flex items-center px-4 py-2 font-semibold text-white transition bg-green-500 rounded-full shadow-lg hover:bg-green-600"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="w-6 h-6 mr-2 fill-current"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M20.52 3.48A12 12 0 0 0 3.48 20.52L2 24l3.48-1.48A12 12 0 0 0 20.52 3.48zM12 22a10 10 0 1 1 10-10 10 10 0 0 1-10 10zm5.55-6.62c-.24-.12-1.41-.7-1.63-.78s-.38-.12-.54.12-.62.78-.76.94-.28.18-.52.06a8.37 8.37 0 0 1-2.46-1.51 9.21 9.21 0 0 1-1.71-2.1c-.18-.3 0-.46.12-.58s.3-.34.46-.52.24-.3.36-.5a.52.52 0 0 0 0-.52c-.12-.18-.54-1.3-.76-1.78s-.4-.42-.54-.42h-.46a1 1 0 0 0-.74.34 3.09 3.09 0 0 0-.96 2.3 5.37 5.37 0 0 0 1.13 2.5 12.28 12.28 0 0 0 4.58 4.24 15.69 15.69 0 0 0 1.68.62 4 4 0 0 0 1.8.12 3 3 0 0 0 2-1.4 2.54 2.54 0 0 0 .18-1.4c-.06-.12-.22-.18-.46-.3z"
+      />
+    </svg>
+    Chat with us
+  </a>
+</div>
+</body>
+</html>

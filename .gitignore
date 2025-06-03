@@ -1,0 +1,6 @@
+echo "node_modules/
+.vscode/
+dist/
+build/
+.env
+.DS_Store" > .gitignore
